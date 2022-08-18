@@ -228,15 +228,8 @@
     }
 
 }
-}
-@media screen and (max-width: 340px ) {
-    .info_content {
-        right: auto;
-    }
-    .info_content li {
-        margin-left: 3px;
-    }
-}
+
+
 @media screen and (max-width: 340px ) {
     .third_banner_container {
         padding-left: 15px;
@@ -249,6 +242,12 @@
     .fifth_banner_container {
         padding-left: 15px;
         padding-right: 5px;
+    }
+    .info_content {
+        right: auto;
+    }
+    .info_content li {
+        margin-left: 3px;
     }
 
 }
