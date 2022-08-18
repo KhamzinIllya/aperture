@@ -213,6 +213,12 @@
     .title6 {
         font-size: 30px;
     }
+
+}
+@media screen and (max-width: 350px ) {
+    .title1 {
+        color: #000000;
+    }
 }
 @media screen and (max-width: 340px ) {
     .info_content {
