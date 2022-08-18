@@ -106,6 +106,10 @@
     .list_of_logos {
         flex-direction: column;
     }
+    .list_of_logos a {
+        margin-top: 15px;
+
+    }
 @media screen and (max-width: 600px){
     .conteiner2 {
         padding-right: 15px;
@@ -188,6 +192,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .title1 {
+        color: #000000;
+    }
+
     .sixth_banner {
         padding-bottom: unset;
     }
@@ -197,6 +205,12 @@
 }
 
 @media screen and (max-width: 428px ) {
+    .what_we_do h2 {
+        font-size: 30px;
+    }
+    .what_we_do p {
+        font-size: 16px;
+    }
 
 }
 
@@ -215,10 +229,6 @@
     }
 
 }
-@media screen and (max-width: 350px ) {
-    .title1 {
-        color: #000000;
-    }
 }
 @media screen and (max-width: 340px ) {
     .info_content {
@@ -250,6 +260,12 @@
     }
     .what_we_do .descrition {
         padding: 15px 15px 10px 15px;
+    }
+    .what_we_do h2 {
+        font-size: 30px;
+    }
+    .what_we_do p {
+        font-size: 14px;
     }
 }
 
