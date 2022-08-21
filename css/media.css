@@ -127,6 +127,12 @@
     .list_of_logos a {
         margin-top: 15px;
     }
+    .owl-nav .owl-prev {
+        top: 125px
+    }
+    .owl-nav .owl-next {
+        top: 125px
+    }
 @media screen and (max-width: 600px){
     .conteiner2 {
         padding-right: 15px;
