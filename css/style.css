@@ -356,6 +356,11 @@ header ul li {
     wrap-option:column;
 }
 
+.list_of_logos a{
+    display: inline-block;
+    max-width: 128px;
+}
+
 .list_of_logos a:hover {
     transform: scale(1.2);
 }
@@ -728,6 +733,41 @@ footer {
     max-width: 63px;
     width: 100%;
     margin: 11px 6px 11px 6px;
+}
+
+.owl-stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 110px;
+}
+
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: #FFFFFF;
+    font-size: 30px;
 }
 
 

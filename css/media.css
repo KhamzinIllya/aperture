@@ -10,7 +10,7 @@
 
 }
 
-@media screen and (max-width: 1150px ){
+@media screen and (max-width: 1151px ){
     .what_we_do .d-flex {
         justify-content: center;
     }
@@ -31,6 +31,23 @@
 @media screen and (max-width: 992px ){
     header {
         padding: 24px 15px ;
+    }
+}
+@media screen and (max-width: 845px ){
+    .item1 {
+        margin-left: 10px;
+    }
+    .item2 {
+        margin-left: 10px;
+    }
+    .item3and4 {
+        margin-left: 10px;
+    }
+    .link4 {
+        margin-left: 10px;
+    }
+    .main_banner {
+        height: 80vh;
     }
 }
 
@@ -103,12 +120,12 @@
     }
 }
 @media screen and (max-width: 700px ){
-    .list_of_logos {
+    .list_of_logos  {
         flex-direction: column;
     }
+
     .list_of_logos a {
         margin-top: 15px;
-
     }
 @media screen and (max-width: 600px){
     .conteiner2 {
@@ -226,7 +243,9 @@
     .title6 {
         font-size: 30px;
     }
-
+    .info_content li {
+        margin-left: 10px;
+    }
 }
 
 
@@ -265,6 +284,7 @@
     .what_we_do p {
         font-size: 14px;
     }
+
 }
 
 
