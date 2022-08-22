@@ -13,6 +13,18 @@ $(document).ready(function(){
 
             1000:{
                 items:5
+            },
+            950:{
+                items:3
+            },
+            850:{
+                items:3
+            },
+            600:{
+                items:3
+            },
+            400:{
+                items:2
             }
         }
     });
