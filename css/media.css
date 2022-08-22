@@ -224,6 +224,11 @@
     .conteiner2 {
         padding-top: 15px;
     }
+    .text_second_banner {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 428px ) {
@@ -292,5 +297,11 @@
     }
 
 }
-
+@media screen and (max-width: 320px ){
+    .text_second_banner {
+        font-size: 12px;
+        margin-top: unset;
+    }
+    
+}
 
