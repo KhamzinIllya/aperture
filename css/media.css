@@ -1,3 +1,10 @@
+@media screen and (max-width: 1250px ) {
+    .gear_conteiner {
+        padding-left: 15px;
+    }
+
+
+}
 @media screen and (max-width: 1170px ) {
     .footer_section {
         padding-left: 15px;
@@ -13,6 +20,9 @@
 @media screen and (max-width: 1151px ){
     .what_we_do .d-flex {
         justify-content: center;
+    }
+    .gear_conteiner p {
+        max-width: 400px;
     }
 }
 @media screen and (max-width: 1100px ){
@@ -49,6 +59,10 @@
     .main_banner {
         height: 80vh;
     }
+    .gear_conteiner p {
+        max-width: 350px;
+    }
+
 }
 
 @media screen and (max-width: 830px ){
@@ -106,6 +120,9 @@
     .form_footer {
         max-height: 58px;
     }
+    .gear_conteiner p{
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 720px ){
@@ -119,20 +136,34 @@
         margin-left: 15px;
     }
 }
-@media screen and (max-width: 700px ){
-    .list_of_logos  {
+@media screen and (max-width: 700px ) {
+    .list_of_logos {
         flex-direction: column;
     }
 
     .list_of_logos a {
         margin-top: 15px;
     }
+
     .owl-nav .owl-prev {
         top: 125px
     }
+
     .owl-nav .owl-next {
         top: 125px
     }
+
+    .gear_conteiner p {
+        max-width: 250px;
+    }
+    .gear_conteiner h4{
+        max-width: 200px;
+        font-size: 17px;
+    }
+    .gear_conteiner h3{
+        max-width: 200px;
+    }
+}
 @media screen and (max-width: 600px){
     .conteiner2 {
         padding-right: 15px;
@@ -151,13 +182,36 @@
         padding-right: unset;
     }
 
+    .image_position {
+        background-image: unset;
+        background-size: unset;
+    }
+    .gear_conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gear_conteiner p {
+        max-width: 300px;
+        text-align: center;
+    }
+    .gear_conteiner h3 {
+        max-width: 300px;
+    }
+    .gear_conteiner h4 {
+        max-width: 300px;
+    }
+    .the_gear_cage {
+        background-image: url("../images/IMAGE (5).jpg");
+    }
 }
-}
+
 @media screen and (max-width: 590px ){
     .sixth_banner {
         padding-left: 15px;
         padding-right: 15px;
     }
+
 }
 
 
@@ -249,6 +303,10 @@
     .list_of_logos {
         padding-bottom: 58px;
     }
+    .gear_conteiner {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 @media screen and (max-width: 375px ) {
     .title6 {
@@ -302,6 +360,6 @@
         font-size: 12px;
         margin-top: unset;
     }
-    
+
 }
 

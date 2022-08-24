@@ -353,10 +353,10 @@ header ul li {
     margin: auto;
     max-width: 1100px;
     flex-wrap: wrap;
-    wrap-option:column;
+    wrap-option: column;
 }
 
-.list_of_logos a{
+.list_of_logos a {
     display: inline-block;
     max-width: 128px;
 }
@@ -695,11 +695,11 @@ footer {
     align-items: end;
 }
 
-.list_footer_section3 li:nth-child(2){
+.list_footer_section3 li:nth-child(2) {
     margin-left: 20px;
 }
 
-.list_footer_section3 li:nth-child(3){
+.list_footer_section3 li:nth-child(3) {
     margin-left: 26px;
 }
 
@@ -742,13 +742,13 @@ footer {
     text-align: center;
 }
 
-.owl-nav .owl-prev{
+.owl-nav .owl-prev {
     position: absolute;
     left: 0;
     top: 110px;
 }
 
-.owl-nav .owl-prev:before{
+.owl-nav .owl-prev:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f053";
@@ -756,13 +756,13 @@ footer {
     font-size: 30px;
 }
 
-.owl-nav .owl-next{
+.owl-nav .owl-next {
     position: absolute;
     right: 0;
     top: 110px;
 }
 
-.owl-nav .owl-next:before{
+.owl-nav .owl-next:before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f054";
@@ -771,5 +771,111 @@ footer {
 }
 
 
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+    background-color: black;
+}
+
+.ui-accordion .ui-accordion-header {
+    background-color: black;
+    text-align: center;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid black;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: 1px solid black;
+}
+
+.ui-widget-content {
+    border: black;
+
+}
+
+.ui-icon {
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin-top: 0;
+    overflow: inherit;
+    width: 50px;
+    height: 50px;
+}
+
+.ui-icon:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f7a4";
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: none;
+}
+
+.ui-state-hover .ui-icon {
+    background-image: none;
+}
+
+.the_gear_cage {
+    background: black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 540px;
+    width: 100%;
+}
+
+.gear_conteiner {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.gear_conteiner h3{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.gear_conteiner h4 {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.gear_conteiner p{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 514px;
+}
+
+.image_position {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url("../images/IMAGE (5).jpg") ;
+    width: 50%;
+    background-size: cover;
+}
 
 

@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>aperture</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,7 +18,7 @@
 <body>
 <header>
     <div class="conteiner">
-        <a href="#" ><img alt="img" src="images/Combined-Shape.png"></a>
+        <a href="#"><img alt="img" src="images/Combined-Shape.png"></a>
         <ul class="list">
             <li class="item1"><a href="#">Business areas</a></li>
             <li class="item2"><a href="#">Featured images</a></li>
@@ -49,46 +51,59 @@
     <div class="container">
         <h2>What we do.</h2>
         <p>The areas that we're specialized in.</p>
+
+        <div id="accordion">
+            <h3></h3>
+            <div class="d-flex">
+                <div class="item_what_we_do">
+                    <div class="descrition">
+                        <h4>Product Photography</h4>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor
+                            hendrerit.
+                            Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="button_description" href="#">Read more</a>
+                    </div>
+                    <img src="images/IMAGE%20(1).jpg" alt="img">
+                </div>
+                <div class="item_what_we_do">
+                    <div class="descrition">
+                        <h4>Architecture Photography</h4>
+                        <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
+                            ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit
+                            amet rhoncus leo imperdiet nec.</p>
+                        <a class="button_description" href="#">Read more</a>
+                    </div>
+                    <img src="images/IMAGE%20(2).jpg" alt="img">
+                </div>
+            </div>
+            <h3></h3>
+            <div class="d-flex">
+                <div class="item_what_we_do">
+                    <div class="descrition">
+                        <h4>Drone Photography</h4>
+                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
+                            vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur
+                            auctor
+                            hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a class="button_description" href="#">Read more</a>
+                    </div>
+                    <img src="images/IMAGE%20(3).jpg" alt="img">
+                </div>
+                <div class="item_what_we_do">
+                    <div class="descrition">
+                        <h4>Wildlife Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                            faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
+                            congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                        <a class="button_description" href="#">Read more</a>
+                    </div>
+                    <img src="images/IMAGE%20(4).jpg" alt="img">
+                </div>
+            </div>
+        </div>
+
         <div class="d-flex">
-            <div class="item_what_we_do">
-                <div class="descrition">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit.
-                        Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="button_description" href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE%20(1).jpg" alt="img">
-            </div>
-            <div class="item_what_we_do">
-                <div class="descrition">
-                    <h4>Architecture Photography</h4>
-                    <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
-                        ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit
-                        amet rhoncus leo imperdiet nec.</p>
-                    <a class="button_description" href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE%20(2).jpg" alt="img">
-            </div>
-            <div class="item_what_we_do">
-                <div class="descrition">
-                    <h4>Drone Photography</h4>
-                    <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
-                        vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor
-                        hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a class="button_description" href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE%20(3).jpg" alt="img">
-            </div>
-            <div class="item_what_we_do">
-                <div class="descrition">
-                    <h4>Wildlife Photography</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-                        faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
-                        congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
-                    <a class="button_description" href="#">Read more</a>
-                </div>
-                <img src="images/IMAGE%20(4).jpg" alt="img">
-            </div>
+
         </div>
     </div>
 
@@ -108,6 +123,19 @@
     </ul>
 </section>
 
+<section class="the_gear_cage">
+    <div class="gear_conteiner">
+        <h3>The Gear cage</h3>
+        <h4>The tools that we use.</h4>
+        <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed
+            film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday
+            to capture the amazing things around us.</p>
+    </div>
+    <div class="image_position">
+    </div>
+
+</section>
+
 <section class="fourth_banner">
     <div class="fourth_banner_container">
         <h3 class="title4">Monstera Leafs</h3>
@@ -121,7 +149,6 @@
         <li>Costa Rica</li>
     </ul>
 </section>
-
 <section class="second_banner">
     <h2 class="title_second_banner">Past clients</h2>
     <p class="text_second_banner">Trusted by your favourite companies</p>
@@ -196,7 +223,7 @@
                 <p class="text_footer_section2">Read about all the things we do.</p>
             </div>
             <form class="form_footer">
-                <input  type="text" class="input_footer">
+                <input type="text" class="input_footer">
                 <button type="submit" class="form_button"></button>
             </form>
         </div>
@@ -216,6 +243,7 @@
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
 
