@@ -155,6 +155,9 @@
     nav .menu-btn{
        left: -7%;
     }
+    nav {
+        background: black;
+    }
 
 }
 
