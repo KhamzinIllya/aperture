@@ -38,6 +38,46 @@
     }
 }
 
+@media screen and (max-width: 1024px ) {
+    nav .menu-btn {
+        display: flex;
+    }
+
+    nav {
+        transform: translateX(100%);
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(20px);
+        position: absolute;
+        max-width: 400px;
+        right: 0;
+        top: 0;
+    }
+
+    nav .nav-links {
+        --link-height: 60px;
+        position: absolute;
+        justify-content: space-around;
+        display: unset;
+        width: 100%;
+        margin: unset;
+    }
+
+    nav .nav-links li {
+        opacity: 0;
+        transform: translateX(-50%);
+        width: 100%;
+        height: var(--link-height);
+    }
+    .menu-btn:before {
+        content: url("../images/Combined-Shape (14).svg");
+        right: -350%;
+        top: 19%;
+        position: absolute;
+        left: unset;
+    }
+
+}
+
 @media screen and (max-width: 992px ){
     header {
         padding: 24px 15px ;
@@ -107,6 +147,15 @@
     .list_section_right {
         margin: unset;
     }
+
+    nav{
+        max-width: 100%;
+        max-height: 90%;
+    }
+    nav .menu-btn{
+       left: -7%;
+    }
+
 }
 
 @media screen and (max-width: 756px ){
@@ -204,6 +253,10 @@
     .the_gear_cage {
         background-image: url("../images/IMAGE (5).jpg");
     }
+    nav .menu-btn{
+        left: -15%;
+    }
+
 }
 
 @media screen and (max-width: 590px ){
@@ -211,9 +264,61 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    body {
+        top: -50px;
+    }
 
 }
 
+@media screen and (max-width: 590px ){
+    .menu-btn .nav-open .logo_top {
+        opacity: 0;
+    }
+}
+
+    @media screen and (max-width: 550px ){
+        nav {
+            max-width: 100%;
+        }
+        .menu-btn:before{
+            left: 300%;
+            right: unset;
+        }
+    }
+
+    @media screen and (max-width: 500px ){
+
+        .menu-btn:before{
+            left: 275%;
+        }
+    }@media screen and (max-width: 500px ){
+
+    .menu-btn:before{
+        left: 230%;
+        right: unset;
+    }
+}
+
+@media screen and (max-width: 550px ){
+    nav {
+        max-width: 100%;
+    }
+    .menu-btn:before{
+        left: 300%;
+    }
+}
+
+@media screen and (max-width: 500px ){
+
+    .menu-btn:before{
+        left: 275%;
+    }
+}@media screen and (max-width: 500px ){
+
+    .menu-btn:before{
+        left: 230%;
+    }
+}
 
 @media screen and (max-width: 530px ){
     .footer_list_section {
@@ -292,6 +397,20 @@
     .what_we_do p {
         font-size: 16px;
     }
+    nav{
+        max-width: 100%;
+        max-height: 80%;
+    }
+    nav.nav-open .menu-btn{
+        left: 80%;
+    }
+
+    nav.nav-open .menu-btn:before {
+        content: url("../images/Combined-Shape (14).svg");
+        top: 19%;
+        position: absolute;
+        left: -390%;
+    }
 
 }
 
@@ -307,6 +426,10 @@
         padding-right: 15px;
         padding-left: 15px;
     }
+    nav.nav-open .menu-btn:before{
+        left: -370%;
+    }
+
 }
 @media screen and (max-width: 375px ) {
     .title6 {
@@ -315,6 +438,10 @@
     .info_content li {
         margin-left: 10px;
     }
+    nav.nav-open .menu-btn:before{
+        left: -350%;
+    }
+
 }
 
 
@@ -337,6 +464,10 @@
     .info_content li {
         margin-left: 3px;
     }
+    nav.nav-open .menu-btn:before{
+        left: -340%;
+    }
+
 
 }
 
@@ -353,13 +484,29 @@
     .what_we_do p {
         font-size: 14px;
     }
+    nav.nav-open .menu-btn:before{
+        left: -320%;
+    }
+
 
 }
-@media screen and (max-width: 320px ){
+
+@media screen and (max-width: 320px ) {
     .text_second_banner {
         font-size: 12px;
         margin-top: unset;
     }
-
 }
+
+@media screen and (max-width: 280px ){
+    nav.nav-open .menu-btn:before{
+        left: -310%;
+    }
+}
+
+
+
+
+
+
 

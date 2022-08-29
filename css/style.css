@@ -32,7 +32,9 @@ header {
     justify-content: space-between;
 
 }
-
+.logo_top{
+    margin-top: 5px;
+}
 .list {
     display: flex;
     list-style: none;
@@ -45,7 +47,6 @@ header ul li a {
     font-family: 'poppinsregular';
     font: 15px/20px 'poppinsregular';
     text-decoration: none;
-
 }
 
 header ul li:hover {
@@ -56,27 +57,37 @@ header ul li:hover a {
     color: #757575;;
 }
 
-
-header ul li {
-    margin: 3px 0 3px 0;
-}
-
-
 .item1 {
     font-family: 'poppinsregular';
     font: 13px/20px 'poppinsregular';
-
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 100px;
 }
 
 .item2 {
+    font-family: 'poppinsregular';
     margin-left: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .item3and4 {
+    font-family: 'poppinsregular';
     margin-left: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .link4 {
+    font-family: 'poppinsregular';
     margin-left: 31px;
     padding: 9px 20px 13px 20px;
     background-color: #FFFFFF;
@@ -878,7 +889,8 @@ footer {
     background-size: cover;
 }
 
-.....
+
+
 
 body {
     width: 100%;
@@ -896,15 +908,12 @@ body {
 
 nav {
     --transition-time: 500ms;
-    position: absolute;
-    right: 0;
-    width: 400px;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(20px);
-    transform: translateX(100%);
+   background: transparent;
+    transform: translateX(0%);
     transition: all 800ms cubic-bezier(0.8, 0, 0.33, 1);
     z-index: 4;
 }
@@ -918,22 +927,24 @@ nav a {
     color: #fff; }
 nav .nav-links {
     --link-height: 60px;
-    position: relative;
-    width: 100%; }
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 100px;
+}
 nav .nav-links li {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
-    height: var(--link-height);
     list-style: none;
-    opacity: 0;
-    transform: translateX(-50%);
+    opacity: 1;
+    transform: translateX(0%);
     transition: all var(--transition-time) cubic-bezier(0.8, 0, 0.33, 0.9);
     transition-delay: calc(30ms + var(--delay));
     cursor: pointer;
-    z-index: 8; }
+    z-index: 8;
+}
 nav .nav-links li:hover {
     color: rgba(255, 255, 255, 0.85); }
 nav .nav-links li a {
@@ -957,7 +968,7 @@ nav .sub-menu {
     top: 50%;
     left: 0;
     width: 100%;
-    transform: translateY(-50%); }
+    transform: translateY(50%); }
 nav .sub-menu ol {
     list-style: none; }
 nav .sub-menu ol li {
@@ -982,7 +993,7 @@ nav .sub-menu ol li a {
 nav .sub-menu-btn {
     --icon-width: 40px;
     position: absolute;
-    top: 6%;
+    top: 3%;
     right: 10%;
     width: var(--icon-width);
     height: var(--icon-width);
@@ -1008,13 +1019,13 @@ nav .sub-menu-btn .line__2 {
     transform-origin: left;
     transform: rotate(35deg) translate(-1px, -8px); }
 nav .menu-btn {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     --icon-width: 25px;
     position: absolute;
-    top: 5%;
-    right: -15%;
+    top: 17px;
+    left: -15%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);
     flex-direction: column;
@@ -1024,8 +1035,6 @@ nav .menu-btn {
 nav .menu-btn.close .line__1 {
     transform: rotate(45deg) translate(2px, -3px); }
 nav .menu-btn.close .line__2 {
-
-    Tyomka R, [26.08.2022 19:53]
     transform: rotate(-45deg); }
 nav .menu-btn.close .line__3 {
     transform: rotate(45deg) translate(-2px, 3px); }
@@ -1047,7 +1056,7 @@ nav .menu-btn .line__3 {
 nav.nav-open {
     transform: translateX(0%); }
 nav.nav-open .menu-btn {
-    right: 10%; }
+    left: 10%; }
 nav.nav-open .nav-links li {
     transform: translateX(0);
     opacity: 1; }
@@ -1062,4 +1071,11 @@ nav.sub-menu-open .nav-links li {
 nav.sub-menu-open .nav-links .hover-el {
     opacity: 0; }
 
-......
+
+
+.menu_link4 {
+    padding: 9px 20px 9px 20px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 14px;
+}
