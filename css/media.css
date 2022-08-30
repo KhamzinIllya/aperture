@@ -72,7 +72,7 @@
         width: 100%;
         height: var(--link-height);
     }
-   
+
 
 }
 
@@ -281,44 +281,29 @@
         nav {
             max-width: 100%;
         }
-        .menu-btn:before{
-            left: 300%;
-            right: unset;
-        }
     }
 
     @media screen and (max-width: 500px ){
 
-        .menu-btn:before{
-            left: 275%;
-        }
+
     }@media screen and (max-width: 500px ){
 
-    .menu-btn:before{
-        left: 230%;
-        right: unset;
-    }
+
 }
 
 @media screen and (max-width: 550px ){
     nav {
         max-width: 100%;
     }
-    .menu-btn:before{
-        left: 300%;
-    }
+
 }
 
 @media screen and (max-width: 500px ){
 
-    .menu-btn:before{
-        left: 275%;
-    }
+
 }@media screen and (max-width: 500px ){
 
-    .menu-btn:before{
-        left: 230%;
-    }
+
 }
 
 @media screen and (max-width: 530px ){
@@ -406,12 +391,6 @@
         left: 80%;
     }
 
-    nav.nav-open .menu-btn:before {
-        content: url("../images/Combined-Shape (14).svg");
-        top: 19%;
-        position: absolute;
-        left: -390%;
-    }
 
 }
 
@@ -427,9 +406,7 @@
         padding-right: 15px;
         padding-left: 15px;
     }
-    nav.nav-open .menu-btn:before{
-        left: -370%;
-    }
+
 
 }
 @media screen and (max-width: 375px ) {
@@ -439,9 +416,7 @@
     .info_content li {
         margin-left: 10px;
     }
-    nav.nav-open .menu-btn:before{
-        left: -350%;
-    }
+
 
 }
 
@@ -465,9 +440,6 @@
     .info_content li {
         margin-left: 3px;
     }
-    nav.nav-open .menu-btn:before{
-        left: -340%;
-    }
 
 
 }
@@ -485,9 +457,6 @@
     .what_we_do p {
         font-size: 14px;
     }
-    nav.nav-open .menu-btn:before{
-        left: -320%;
-    }
 
 
 }
@@ -500,9 +469,7 @@
 }
 
 @media screen and (max-width: 280px ){
-    nav.nav-open .menu-btn:before{
-        left: -310%;
-    }
+   
 }
 
 
