@@ -41,6 +41,7 @@
 @media screen and (max-width: 1024px ) {
     body{
         overflow-x: hidden;
+
     }
     nav .menu-btn {
         display: flex;
@@ -77,6 +78,7 @@
         top: 19%;
         position: absolute;
         left: unset;
+        overflow-x: hidden;
     }
 
 }
