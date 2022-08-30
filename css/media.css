@@ -72,14 +72,7 @@
         width: 100%;
         height: var(--link-height);
     }
-    .menu-btn:before {
-        content: url("../images/Combined-Shape (14).svg");
-        right: -350%;
-        top: 19%;
-        position: absolute;
-        left: unset;
-        overflow-x: hidden;
-    }
+   
 
 }
 
@@ -155,7 +148,7 @@
 
     nav{
         max-width: 100%;
-        max-height: 90%;
+        max-height: 85%;
     }
     nav .menu-btn{
        left: -7%;
