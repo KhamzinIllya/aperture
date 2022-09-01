@@ -1,0 +1,47 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+.fifth_banner {
+  background-image: url("../images/IMAGE (4).png");
+  background-position: bottom;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  padding-right: 62px;
+  @include max-screen(600px){
+    justify-content: center;
+    padding-right: unset;
+  }
+  .fifth_banner_container {
+    max-width: 241px;
+    @include max-screen(340px){
+      padding-left: 15px;
+      padding-right: 5px;
+    }
+    .title5 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $color_wite;
+    }
+    .text_fifth_banner {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font-size: 14px;
+      line-height: 20px;
+      color: $color_grey;
+    }
+  }
+}

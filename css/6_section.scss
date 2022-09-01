@@ -1,0 +1,82 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+
+.second_banner {
+  background: #000000;
+  border-radius: 0px;
+  padding-top: 113px;
+  padding-bottom: 140px;
+  @include max-screen(1100){
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  @include max-screen(414px){
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .title_second_banner {
+    font-family:$main_font;
+    font-style: normal;
+    font-weight: $font_waight;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: $color_wite;
+  }
+    .text_second_banner {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      color: $color_grey;
+      margin-top: 15px;
+      @include max-screen(480px){
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      @include max-screen(320px){
+        font-size: 12px;
+        margin-top: unset;
+      }
+
+    }
+  .owl-carousel{}
+  .list_of_logos {
+    padding-top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    wrap-option: column;
+    @include max-screen(414px){
+      padding-bottom: 58px;
+    }
+
+    a {
+      display: inline-block;
+      max-width: 128px;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+}

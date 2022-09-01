@@ -1,0 +1,35 @@
+.fifth_banner {
+  background-image: url("../images/IMAGE (4).png");
+  background-position: bottom;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  padding-right: 62px;
+}
+.fifth_banner .fifth_banner_container {
+  max-width: 241px;
+}
+.fifth_banner .fifth_banner_container .title5 {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.fifth_banner .fifth_banner_container .text_fifth_banner {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+/*# sourceMappingURL=7_section.css.map */

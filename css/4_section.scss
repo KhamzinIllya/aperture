@@ -1,0 +1,114 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+.the_gear_cage {
+  background: black;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 540px;
+  width: 100%;
+  @include max-screen(600px){
+    background-image: url("../images/IMAGE (5).jpg");
+  }
+
+  .gear_conteiner {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    @include max-screen (1250px) {
+      padding-left: 15px;
+    }
+    @include max-screen(600px){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    @include max-screen(414px){
+      padding-right: 15px;
+      padding-left: 15px
+    }
+    h3{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $color_wite;
+      @include max-screen(700px){
+        max-width: 200px;
+      }
+      @include max-screen(600px){
+        max-width: 300px;
+      }
+    }
+    h4 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 32px;
+      color:$color_wite;
+      @include max-screen(700px){
+        max-width: 200px;
+        font-size: 17px;
+      }
+      @include max-screen(600px){
+        max-width: 300px;
+      }
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $color_grey;
+      max-width: 514px;
+      @include max-screen(1151){
+        max-width: 400px;
+      }
+      @include max-screen(845px){
+        max-width: 350px;
+      }
+      @include  max-screen(756px){
+        max-width: 300px;
+      }
+      @include max-screen(700px){
+        max-width: 250px;
+      }
+      @include max-screen(600px){
+        max-width: 300px;
+        text-align: center;
+      }
+    }
+
+  }
+  .image_position {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url("../images/IMAGE (5).jpg") ;
+    width: 50%;
+    background-size: cover;
+    @include max-screen(600px){
+      background-image: unset;
+      background-size: unset;
+    }
+  }
+}

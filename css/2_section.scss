@@ -1,0 +1,141 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+.what_we_do {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  background-color: $main_color;
+  @include max-screen(480px){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .container {
+    max-width: 1168px;
+    margin: auto;
+    h2 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font-size: 40px;
+      line-height: 42px;
+      text-align: center;
+      color: $color_wite;
+      @include max-screen(428px){
+        font-size: 30px;
+      }
+
+    }
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font-size: 23px;
+      line-height: 30px;
+      text-align: center;
+      color: $color_grey;
+      @include max-screen(428px){
+        font-size: 16px;
+      }
+      @include max-screen(320px){
+        font-size: 14px;
+      }
+
+    }
+
+    .d-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      @include max-screen(1151px){
+        justify-content: center;
+      }
+      .item_what_we_do {
+        max-width: 576px;
+        position: relative;
+        margin-bottom: 16px;
+        img {
+          display: block;
+          width: 100%;
+        }
+        .descrition {
+          position: absolute;
+          padding: 30px;
+          width: 100%;
+          box-sizing: border-box;
+          bottom: 0px;
+          @include max-screen(320px){
+            padding: 15px 15px 10px 15px;
+          }
+          h4 {
+            font-family: $main_font;
+            font-style: normal;
+            font-weight: $font_waight;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $color_wite;
+            text-align: left;
+          }
+          p {
+            font-family: $main_font;
+            font-style: normal;
+            font-weight: $font_waight;
+            font-size: 14px;
+            line-height: 20px;
+            color: $color_grey;
+            text-align: left;
+          }
+          .button_description {
+            text-decoration: none;
+            font-family: $main_font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.4px;
+            color: $main_color;
+            background-color: $color_wite;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            padding: 9px 10px 10px 9px;
+            max-width: 143px;
+            margin-top: 10px;
+            @include max-screen(320px){
+              padding: 4px 5px 5px 4px;
+            }
+            &:before {
+              content: "";
+              background-color: $main_color;
+              min-height: 25px;
+              min-width: 25px;
+              border-radius: 11px;
+              margin-right: 12px;
+            }
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.sixth_banner {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  min-height: 414px;
+  justify-content: center;
+  padding-bottom: 121px;
+}
+.sixth_banner .sixth_banner_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 571px;
+}
+.sixth_banner .sixth_banner_container .title6 {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.sixth_banner .sixth_banner_container .text_sixth_banner {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=8_section.css.map */

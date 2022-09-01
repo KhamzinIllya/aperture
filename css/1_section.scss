@@ -1,0 +1,127 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+.main_banner {
+  background-image: url("../images/IMAGE (1).png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  padding-bottom: 71px;
+  align-items: flex-end;
+  display: flex;
+  @include max-screen(845px){
+    height: 80vh;
+  }
+  @include max-screen(720px){
+    height: 65vh;
+  }
+  .conteiner2 {
+    max-width: 580px;
+    @include max-screen(600px){
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    @include max-screen(480px){
+      padding-top: 15px;
+    }
+
+    .title1 {
+      font-family: $main_font;
+      font: 14px/20px $main_font;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $color_grey;
+      padding-top: 466px;
+      @include max-screen(480px){
+        color: $main_color;
+      }
+    }
+
+    .title2 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $font_waight;
+      font: 54px/59px $main_font;
+      text-align: center;
+      color: $color_wite;
+      @include max-screen(500px){
+        font-size: 40px;
+      }
+    }
+
+    .text {
+      font-family: $main_font;
+      font: 14px/20px $main_font;
+      text-align: center;
+      margin-top: 18px;
+      color:$color_grey;
+      margin-bottom: 71px;
+    }}
+}
+
+.info_content {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+  @include max-screen(340px){
+    right: auto;
+  }
+
+  li {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $font_waight;
+    font-size: 12px;
+    line-height: 12px;
+    color: $color_wite;
+    display: inline-flex;
+    margin-left: 16px;
+    @include max-screen(375px){
+      margin-left: 10px;
+    }
+    @include max-screen(340px){
+      margin-left: 3px;
+    }
+
+    &:before {
+      content: "";
+      background-image: url("../images/Combined-Shape (4).svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(2):before {
+      content: "";
+      background-image: url("../images/Combined-Shape (6).svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(3):before {
+      content: "";
+      background-image: url("../images/Combined-Shape (7).svg");
+      width: 32px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(4):before {
+      content: "";
+      background-image: url("../images/Fill-1.svg");
+      width: 10px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+
+  }
+}

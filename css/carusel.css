@@ -1,0 +1,84 @@
+.owl-stage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  top: 110px;
+}
+
+.owl-nav .owl-prev:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f053";
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
+
+.owl-nav .owl-next:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f054";
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+  background-color: black;
+}
+
+.ui-accordion .ui-accordion-header {
+  background-color: black;
+  text-align: center;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border: 1px solid black;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border: 1px solid black;
+}
+
+.ui-widget-content {
+  border: black;
+}
+
+.ui-icon {
+  background-image: none;
+  background-position: 0;
+  text-indent: 0;
+  margin-top: 0;
+  overflow: inherit;
+  width: 50px;
+  height: 50px;
+}
+
+.ui-icon:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f7a4";
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+  background-image: none;
+}
+
+.ui-state-hover .ui-icon {
+  background-image: none;
+}
+
+/*# sourceMappingURL=carusel.css.map */

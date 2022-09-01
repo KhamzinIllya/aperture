@@ -1,0 +1,27 @@
+.second_banner {
+  background: #000000;
+  border-radius: 0px;
+  padding-top: 113px;
+  padding-bottom: 140px;
+}
+.second_banner .title_second_banner {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.second_banner .title_second_banner .text_second_banner {
+  font-family: "poppinsregular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=6_section.css.map */

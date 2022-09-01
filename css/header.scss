@@ -1,0 +1,53 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+header {
+  background-color: $main_color;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  @include max-screen(1170px){
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include max-screen(992px){
+    padding: 24px 15px
+  }
+  
+
+  .logo_top {
+    margin-top: 5px;
+  }
+
+  .conteiner {
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    .menu_item1 {
+      margin-left: 100px;
+      @include max-screen(1024px){
+        margin: unset;
+      }
+    }
+
+    .menu_link4 {
+      padding: 9px 20px 9px 20px;
+      background-color: #FFFFFF;
+      color: black;
+      border-radius: 14px;
+    }
+
+  }
+
+}

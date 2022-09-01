@@ -1,0 +1,50 @@
+@import "style.css";
+@import "media.css";
+@import "header";
+@import "1_section";
+@import "2_section";
+@import "3_section";
+@import "4_section";
+@import "5_section";
+@import "6_section";
+@import "7_section";
+@import "8_section";
+@import "footer";
+@import "carusel";
+@import "menu";
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/poppins-regular-webfont.eot');
+  src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('../fonts/poppins-regular-webfont.woff') format('woff'),
+  url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+  url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+

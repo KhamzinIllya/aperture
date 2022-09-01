@@ -1,0 +1,100 @@
+$main_font: 'poppinsregular';
+$main_color: #000000;
+$color_wite: #ffffff;
+$color_grey: #C0C0C0;
+$font_waight: 400;
+$font_Awesome:"Font Awesome 6 Free";
+
+
+.owl-stage {
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+  top: 110px;
+  @include max-screen(700px){
+    top: 125px
+  }
+}
+
+.owl-nav .owl-prev:before {
+  font-family: $font_Awesome;
+  font-weight: 900;
+  content: "\f053";
+  color: $color_wite;
+  font-size: 30px;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+  top: 110px;
+  @include max-screen(700px){
+    top: 125px
+  }
+}
+
+.owl-nav .owl-next:before {
+  font-family: $font_Awesome;
+  font-weight: 900;
+  content: "\f054";
+  color: $color_wite;
+  font-size: 30px;
+}
+
+
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+  background-color: $main_color;
+}
+
+.ui-accordion .ui-accordion-header {
+  background-color: $main_color;
+  text-align: center;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border: 1px solid $main_color;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+  border: 1px solid $main_color;
+}
+
+.ui-widget-content {
+  border: $main_color;
+
+}
+
+.ui-icon {
+  background-image: none;
+  background-position: 0;
+  text-indent: 0;
+  margin-top: 0;
+  overflow: inherit;
+  width: 50px;
+  height: 50px;
+}
+
+.ui-icon:before{
+  font-family: $font_Awesome;
+  font-weight: 900;
+  content: "\f7a4";
+  color: $color_wite;
+  font-size: 50px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+  background-image: none;
+
+}
+
+
+.ui-state-hover .ui-icon {
+  background-image: none;
+}
