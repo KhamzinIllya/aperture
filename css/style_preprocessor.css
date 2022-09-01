@@ -1114,22 +1114,21 @@ nav {
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
     position: absolute;
-    max-width: 0;
+    max-width: 400px;
     right: 0;
     top: 0;
-    display: none;
   }
 }
 @media screen and (max-width: 768px) {
   nav {
-    max-width: 0;
+    max-width: 100%;
     max-height: 85%;
     background: black;
   }
 }
 @media screen and (max-width: 428px) {
   nav {
-    max-width: 0;
+    max-width: 100%;
     max-height: 80%;
   }
 }
@@ -1373,12 +1372,6 @@ nav .menu-btn .line__3 {
 
 nav.nav-open {
   transform: translateX(0%);
-}
-@media screen and (max-width: 1024px) {
-  nav.nav-open {
-    display: block;
-    width: 100%;
-  }
 }
 
 nav.nav-open .menu-btn {

@@ -44,19 +44,18 @@ nav {
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
     position: absolute;
-    max-width: 0;
+    max-width: 400px;
     right: 0;
     top: 0;
-    display: none;
 
   }
   @include max-screen(768px){
-    max-width: 0;
+    max-width: 100%;
     max-height: 85%;
     background: black;
   }
   @include max-screen(428px){
-    max-width: 0;
+    max-width: 100%;
     max-height: 80%;
   }
 }
@@ -239,12 +238,7 @@ nav .menu-btn .line__3 {
   width: var(--icon-width);
   transform-origin: right; }
 nav.nav-open {
-  transform: translateX(0%);
-  @include max-screen(1024px){
-    display: block;
-    width: 100%;
-  }
-}
+  transform: translateX(0%); }
 nav.nav-open .menu-btn {
   left: 10%;
   @include max-screen(428px){
