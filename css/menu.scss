@@ -43,10 +43,12 @@ nav {
     transform: translateX(100%);
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
-    position: fixed;
+    position: absolute;
     max-width: 400px;
     right: 0;
     top: 0;
+    bottom: 0;
+    left: 0;
   }
   @include max-screen(768px){
     max-width: 100%;
