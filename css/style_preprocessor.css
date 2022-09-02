@@ -33,6 +33,11 @@ header .conteiner .menu_item1 {
     margin: unset;
   }
 }
+@media screen and (max-width: 480px) {
+  header .conteiner .menu_item1 {
+    max-width: 400px;
+  }
+}
 header .conteiner .menu_link4 {
   padding: 9px 20px 9px 20px;
   background-color: #FFFFFF;
@@ -1105,7 +1110,6 @@ nav {
   align-items: center;
   background: transparent;
   transform: translateX(0%);
-  transition: all 800ms cubic-bezier(0.8, 0, 0.33, 1);
   z-index: 4;
 }
 @media screen and (max-width: 1024px) {
@@ -1113,10 +1117,12 @@ nav {
     transform: translateX(100%);
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
-    position: absolute;
+    position: fixed;
     max-width: 400px;
     right: 0;
     top: 0;
+    left: 0;
+    bottom: 0;
   }
 }
 @media screen and (max-width: 768px) {

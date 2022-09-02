@@ -39,6 +39,9 @@ header {
       @include max-screen(1024px){
         margin: unset;
       }
+      @include max-screen(480px){
+        max-width: 400px;
+      }
     }
 
     .menu_link4 {
